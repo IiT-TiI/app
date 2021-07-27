@@ -2,11 +2,14 @@
   <router-view></router-view>
 </template>
 
-<script>
-
+<script lang="ts">
+import {provide,ref} from 'vue'
 export default {
   name: 'App',
-  components: {
+  setup(){
+    const width = document.documentElement.clientWidth
+    const asideVisiable = ref(width > 500 ? true:false)
+    provide('asideVisiable',asideVisiable)
   }
 }
 </script>

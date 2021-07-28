@@ -5,7 +5,7 @@
       <h1>test UI</h1>
       <p class="actions">
         <a href="">github</a>
-        <a href="">start</a>
+        <router-link to="/doc">start</router-link>
       </p>
     </div>
   </div>

@@ -1,13 +1,19 @@
 <template>
   <div>
       switch demo
-      <Switch></Switch>
+      <Switch v-model:value="x"/>
   </div>
 </template>
 
 <script lang="ts">
 import Switch from '../lib/Switch.vue'
+import { ref } from 'vue'
+
 export default {
-  components:{Switch}
+  components:{Switch},
+  setup(){
+    const x = ref(true)
+    return{x}
+  }
 }
 </script>

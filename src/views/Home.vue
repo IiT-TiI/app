@@ -2,7 +2,7 @@
   <div>
     <Topnav/>
     <div class="banner">
-      <h1>test UI</h1>
+      <h1>practice UI</h1>
       <p class="actions">
         <a href="">github</a>
         <router-link to="/doc">start</router-link>

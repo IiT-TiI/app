@@ -7,6 +7,7 @@
           <li><router-link to="/doc/switch">switch</router-link></li>
           <li><router-link to="/doc/button">button</router-link></li>
           <li><router-link to="/doc/dialog">dialog</router-link></li>
+          <li><router-link to="/doc/slide">slide</router-link></li>
           <li><router-link to="/doc/tabs">tabs</router-link></li>
         </ul>
       </aside>
